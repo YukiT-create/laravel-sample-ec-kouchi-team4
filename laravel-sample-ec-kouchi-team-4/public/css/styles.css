@@ -1,0 +1,257 @@
+.header_nav {
+	display: flex;
+	list-style: none;
+	padding-left: 0;
+	color: green;
+}
+
+.header_nav li {
+	margin-right: 30px;
+	font-size: 20px;
+}
+/* サイト全体のフォント、背景画像の指定 */
+.bodyLogImage {
+font-family: serif;
+background-image: url(../images/ice-creamback.jpg);
+background-size: cover;
+position: relative;
+}
+
+/* エラーメッセージ用のスタイル */
+.error {
+	color: red;
+	font-weight: bold;
+}
+
+/* 成功メッセージ用のスタイル */
+.success {
+	color: green;
+}
+
+/* 投稿のスタイル */
+.items {
+	padding: 0;
+}
+
+.item {
+	margin-bottom: 30px;
+	list-style: none;
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+}
+
+.item_main {
+	display: flex;
+}
+
+.item_heading {
+	background-color: #dddddd;
+	font-weight: bold;
+}
+
+.item_main_img {
+	width: 100px;
+}
+
+.item_main_img img {
+	width: 100%;
+}
+
+.nav-bg-custom {
+	background-color: #1C7F7A;
+}
+
+.header_nav {
+	display: flex;
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0px;
+}
+
+.header_nav li {
+	margin-right: 30px;
+}
+
+.header_nav a {
+	font-weight: bold;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+	background-color: #E38C89 !important;
+	border-color: #E38C89 !important;
+}
+
+.link-button-style {
+	background-color: #E38C89 !important;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.form-container {
+	margin-top: 10%;
+}
+
+#logout {
+	display: none;
+}
+
+.item_table {
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+.item_table th,
+.item_table td {
+	border: solid 1px black;
+	padding: 5px;
+}
+
+.item_image {
+	height: 150px;
+	width: 150px;
+}
+
+.navbar-light .navbar-brand.logo {
+	color: red;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.main_title {
+	color: #283c63;
+}
+
+.contents {
+	padding-top: 30px;
+}
+
+.search {
+	margin: 20px 0;
+}
+
+.search .btn.btn-outline-secondary {
+	background-color: #f1eaf5;
+}
+
+.category {
+	padding: 10px;
+}
+
+.nav_title {
+	font-size: 16px;
+	color: #283c63;
+	background-color: #f0b400;
+	padding: 10px 0;
+}
+
+.nav-link {
+	padding-bottom: 5px !important;
+	font-weight: bold;
+}
+
+.category_menu a {
+	display: block;
+}
+
+
+.item.card {
+	margin-bottom: 20px;
+	padding: 10px;
+	border: solid 5px #f0b400;
+
+}
+
+.item_row {
+	align-items: center;
+}
+
+.item_figure {
+	/* padding: 10px; */
+}
+
+.item_description {}
+
+.item_title {
+	font-size: 20px;
+}
+
+.item_title a {
+	color: #f85f73;
+}
+
+.login_field {
+  text-align: center;
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  padding: 20px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+​
+.sign-up {
+	padding-top: 20px;
+}
+​
+.signup_field{
+	display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  padding: 10px;
+  margin-top: 100px;
+  margin-left: 400px;
+}
+​
+.logo.png{
+	width: 100px;
+	height: 50px;
+}
+.footer_nav{
+	color: red;
+}
+
+*show.blade.php*/
+.product {
+	margin-top: 40px;
+}
+
+.product_img {
+	height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.product_title {
+	font-size: 20px;
+	font-weight: lighter;
+	color: #666666;
+}
+
+.product_name {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.product_discription {
+	font-size: 18px;
+	color: #666666;
+}
+
+.product_quantity {
+	padding: 20px 0 12px;
+}
+
+.product_cart {
+	padding: 12px 0 12px;
+}	
